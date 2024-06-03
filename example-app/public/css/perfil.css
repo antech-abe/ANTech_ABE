@@ -1,0 +1,162 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    min-height: 100vh;
+}
+
+/*Header - INICIO*/
+body{
+    background: rgb(243, 238, 238);
+
+}
+
+header{
+    padding-top: 15px;
+    position: fixed;
+    width: 100%;
+    background: none;
+    padding-inline: 3%;
+    transition: 01s;
+    color: rgb(0, 0, 0);
+}
+
+.header_scroll{ 
+    background: rgb(255, 255, 255);
+    color: gray;
+    z-index: 1;
+    box-shadow: 1px 1px 2px rgb(226, 225, 225);
+}
+
+header.header_scroll a{
+    color: gray;
+}
+
+header.header_scroll #menu{
+    border-bottom: none;
+}
+
+header a{
+    color: white;
+    cursor: pointer;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu_links{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu_links li:hover #drop-down {
+    display: block;
+    position: absolute;
+    top: 44px;
+    color: #000;
+    font-weight: 500;
+    border: 1px solid rgb(226, 225, 225)
+}
+
+#menu{
+    border-bottom: 1px solid gray;
+    padding-left: 15px;
+}
+
+#drop-down a{
+    padding-inline: 41px !important;
+    background: rgb(255, 255, 255);
+    color: black !important;
+    font-size: 15px;
+    border-bottom: 1px solid rgb(226, 225, 225);
+}
+
+#drop-down {
+    display: none;
+}
+
+#menu_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+#menu_nav li a {
+    display: block;
+    width: 140px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-align: center;
+}
+
+#menu_nav li a:hover {
+    color: gray;
+}
+
+section{
+    padding: 30px;
+    padding-inline: 0;
+}
+
+/*Header - END*/
+
+.cards{
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.cards_mini{
+    height: 30rem;
+    box-shadow: 5px 5px 100px rgb(226, 225, 225);
+}
+
+.cards_max{
+    height: 4rem;
+    box-shadow: 5px 5px 100px rgb(226, 225, 225);
+}
+
+.cards_max2{
+    height: 24.5rem;
+    box-shadow: 5px 5px 100px rgb(226, 225, 225);
+}
+
+.navbar-nav{
+    margin-top: -250px;
+}
+
+.dados-pessoais{
+    margin-top:-30px;
+}
+
+.pessoais{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-left:30px;
+}
+
+.credencias{
+    margin-right:290px;
+    margin-top: -150px;
+}
+
+.conta{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-left:30px;
+}
+
+/*footer*/
